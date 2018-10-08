@@ -1,0 +1,157 @@
+
+<!-- Have to apply PHP part -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ADMIN Profile</title>
+</head>
+<body>
+    <table border="1" align="center" width="100%" height="100%" cellspacing="0" bgcolor="#0F1F3A">
+        <tr align="left">
+            <td colspan="2">
+                
+                <input type="image" name="logo" src="img/logo.png" width="25%" height="50%">
+
+                    <nav align="center">
+
+
+                            <button type="button" onclick="location.href='admin_home_view.html'"><font color="red" size="4em" /><b/>Home</button>
+                        <button type="button" onclick="location.href='admin_profile_view.html'"><font color="red" size="4em" /><b/>Profile</button>
+                        
+                        
+                        <button type="button" onclick="location.href='homepage.html'"><font color="red" size="4em" /><b/>Log Out</button><!-- Changes will apply here -->
+                    
+                    </nav>
+            </td>
+        </tr>
+        <tr>
+            
+            <td valign="top" width="25%">
+                <fieldset>
+                    <legend>
+                <font size="5em" color="#F78541">
+                    
+                <b/>PROFILE
+                </font></legend>
+                <input type="image" src="img/admin.jpg" height="10%" name="">
+                <br><br>
+                <ul>
+                        <li type="square">
+                        <a href="admin_edit_profile.html"><font color="teal" size="4em" />Edit Profile</a>
+                    </li>
+                    <hr>
+                    
+                    <li type="square"><a href="admin_profile_view.html"><font color="teal" size="4em" />View Profile</a></li><hr>
+                    <li type="square"><a href="admin_change_profile_pic.html"><font color="teal" size="4em" />Change Profile Picture</a></li><hr>
+                    <li type="square"><a href="admin_change_password.html"><font color="teal" size="4em" />Change Password</a></li><hr>
+                    
+                    <br><br>
+                    
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                    <legend>
+                <font size="5em" color="#F78541">
+                    
+                <b/>REPORT
+                </font></legend>
+                <br><br>
+                <ul>
+                        <li type="square">
+                        <a href="admin_statistics_report.html"><font color="teal" size="4em" />Statistics Report</a>
+                    </li>
+                    <hr>
+                    <li type="square">
+                        <a href="admin_activity_report.html"><font color="teal" size="4em" />Activity Report</a>
+                    </li>
+                    <hr>
+                    
+                    
+                    
+                </ul>
+            </fieldset>
+            </td>
+            <td valign="top" height="350"  align="center">
+                <table align="center" width="50%">
+                    <tr>
+                        <br>
+                        <br>
+                        <br>
+                        <td>
+                            <fieldset>
+    <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <b style="color: white">Search Service Provider </b>
+            </td>
+            <td align="right">
+                <input type="text" value=""/>
+                <input type="submit" value="Search"/>
+            </td>
+        </tr>
+    </table>
+</fieldset>
+<br/>
+<table width="100%" cellspacing="0" border="1" cellpadding="5">
+    <tr>
+        <th align="left" style="color: white">NAME</th>
+        <th align="center" width="110" style="color: white"></th>
+    </tr>
+    <tr>
+        <td style="color: white">Peasha</td>
+        <td align="center" style="color: white">
+              <input type="button" name="" value="View Details" onclick="location.href='admin_service_provider_view_details.html'">
+            
+        </td>   
+        <td align="center" style="color: white">
+            
+            <input type="button" name="" value="Remove" onclick="location.href='admin_service_provider_remove.html'">
+        </td>       
+    </tr>
+    <tr>
+        <td style="color: white">Shamim</td>
+        <td align="center" style="color: white">
+             <input type="button" name="" value="View Details" onclick="location.href='admin_service_provider_view_details.html'">
+            
+        </td>   
+        <td align="center" style="color: white">
+            
+             <input type="button" name="" value="Remove" onclick="location.href='admin_service_provider_remove.html'">
+        </td>             
+    </tr>
+    <tr>
+        <td style="color: white">Eiffat</td>
+        <td align="center" style="color: white">
+              <input type="button" name="" value="View Details" onclick="location.href='admin_service_provider_view_details.html'">
+            
+        </td>   
+        <td align="center" style="color: white">
+            
+             <input type="button" name="" value="Remove" onclick="location.href='admin_service_provider_remove.html'">
+        </td>             
+    </tr>
+     <tr>
+        <td style="color: white">Rifat</td>
+        <td align="center" style="color: white">
+             <input type="button" name="" value="View Details" onclick="location.href='admin_service_provider_view_details.html'">
+            
+        </td>   
+        <td align="center" style="color: white">
+            
+            <input type="button" name="" value="Remove" onclick="location.href='admin_service_provider_remove.html'">
+        </td>              
+    </tr>
+    
+</table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        
+    </table>
+</body>
+</html>
